@@ -1,6 +1,4 @@
-function leoJoao (x, y) {
-  var resultado = x * y
-  return console.log(resultado)
-}
-
-
+do{
+  nome = vencedores(['leonardo', 'joao', 'daniel', 'matheus', 'natan', 'renan'])
+  console.log(`O vencedor foi todos menos: ${nome[1]}`)
+} while (nome != nome[1])
